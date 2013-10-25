@@ -1,0 +1,103 @@
+
+
+.nav {
+  font-size: 20px;
+}
+
+
+a.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+div.item div.container div h1 {
+  font-size: 40px;
+  color: #FFF;
+  text-shadow: black 2px 2px 2px;
+}
+
+div.signup-area {
+  background-color: #DDD;
+  height: 300px;
+  text-align: center;
+}
+
+div.signup-area .private-beta {
+  padding: 30px;
+  font-size: 20px;
+}
+
+div.signup-area div form {
+  font-size: 16px;
+}
+
+input#email {
+  width: 390px;
+  font-size: 20px;
+  border: 2px solid #888;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input#sign-up {
+  margin-left: 40px;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8db77', endColorstr='#96c938');
+  background-color:#b8db77;
+  -webkit-border-top-left-radius:28px;
+  -moz-border-radius-topleft:28px;
+  border-top-left-radius:28px;
+  -webkit-border-top-right-radius:28px;
+  -moz-border-radius-topright:28px;
+  border-top-right-radius:28px;
+  -webkit-border-bottom-right-radius:28px;
+  -moz-border-radius-bottomright:28px;
+  border-bottom-right-radius:28px;
+  -webkit-border-bottom-left-radius:28px;
+  -moz-border-radius-bottomleft:28px;
+  border-bottom-left-radius:28px;
+  text-indent:0;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  color:#ffffff;
+  font-family:arial;
+  font-size:22px;
+  font-weight:normal;
+  font-style:normal;
+  height:55px;
+  width:114px;
+  text-decoration:none;
+  text-align:center;
+}
+
+input#sign-up:hover {
+  background-color:#96c938;
+}
+
+input#sign-up:active {
+  position:relative;
+  top:1px;
+}
+
+div.company-description {
+  padding: 0px 10px 0px 10px;
+  font-size:18px;
+}
+
+@media (min-width: 768px) {
+
+  div.company-description {
+    padding: 0px 50px 0px 50px;
+    font-size:18px;
+  }
+
+}
+
+div.thank-you {
+  padding: 20px;
+}
+
+div.error {
+  padding: 20px;
+  color: #F30;
+  text-align: center;
+}

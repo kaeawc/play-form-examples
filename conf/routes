@@ -1,0 +1,13 @@
+
+GET     /                                      controllers.Application.index
+
+GET     /docs                                  controllers.Application.docs
+
+GET     /account/:id                           controllers.Accounts.get(id:Long)
+GET     /account/by/email/:email               controllers.Accounts.getByEmail(email:String)
+POST    /account                               controllers.Accounts.create
+PUT     /account/:id/change/email              controllers.Accounts.updateEmail(id:Long)
+PUT     /account/:id/change/password           controllers.Accounts.updatePassword(id:Long)
+DELETE  /account/:id                           controllers.Accounts.remove(id:Long)
+
+GET     /assets/*file                          controllers.Assets.at(path="/public", file)
